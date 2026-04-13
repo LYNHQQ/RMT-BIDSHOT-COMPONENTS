@@ -1,0 +1,5 @@
+version: "0.1.0"
+description: "High-performance 4-channel bidirectional DShot RMT component for ESP-IDF"
+url: "https://github.com/LYNHQQ/RMT-BIDSHOT-COMPONENTS"
+targets:
+  - esp32s3
