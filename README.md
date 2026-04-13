@@ -39,8 +39,3 @@ ESP_ERROR_CHECK(bidir_dshot_init(&config));
 ESP_ERROR_CHECK(bidir_dshot_send(throttle));
 ESP_ERROR_CHECK(bidir_dshot_receive(replies, results));
 ```
-
-## Notes
-
-- The repository name uses hyphens because GitHub repository names cannot contain spaces.
-- The example keeps the control loop outside the component to avoid hiding timing policy inside the driver.
